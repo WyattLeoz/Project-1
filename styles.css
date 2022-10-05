@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@media (min-width: 800px) {
+    body {
+        font-size: 1.25rem;       
+    }
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+body {
+    background: aliceblue;
+    color: #303030;
+    font-size: 1.75rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+
+}
+
+.header {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.btn {
+    padding: 1em;
+    font-size: 1.25rem;
+    box-shadow: 0.25em .25em 0.75em rgba(0,0,0,.25),
+                0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
